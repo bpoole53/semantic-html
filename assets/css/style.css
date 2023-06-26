@@ -1,13 +1,17 @@
+/* Define the box sizing, padding, and margin for all classes */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Make the webpage background white */
 body {
     background-color: #d9dcd6;
 }
 
+/* Give the header a padding of 20px, define font priority, give a blue background color
+and a font color of white*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +19,18 @@ body {
     color: #ffffff;
 }
 
+/* Make this an inline element and give the font a size of 48px */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Give these letters a slightly different white color*/
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Define where the link text will appear as well as their font priorities and size */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -36,20 +43,24 @@ body {
     list-style-type: none;
 }
 
+/* Make this an inline element with 25px lefthand margin */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Give the font a color of white */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Give the font a size of 16px */
 p {
     font-size: 16px;
 }
 
+/* Define the sizing and positioning as well as a link to the image */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +70,26 @@ p {
     background-position: center;
 }
 
+/* Give this class a righthand margin of 25px */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Give this class a lefthand margin of 25px */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Define the width, make it an inline element and a lefthand margin of 20px */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Define the positioning of the element as well as its width and size, the font priority, and give it a blue background */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,54 +101,64 @@ p {
     background-color: #2589bd;
 }
 
+/* Give this class a bottom side margin of 32px and a color of white */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Give this class a bottom side margin of 32px and a color of white */
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Give this class a bottom side margin of 32px and a color of white */
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Give this class a bottom side margin of 10px and a center alignment */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Give this class a bottom side margin of 10px and a center alignment */
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Give this class a bottom side margin of 10px and a center alignment */
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Define the size and positioning of this class */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Define the size and positioning of this class */
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Define the size and positioning of this class */
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Define the size and positioning of this class as well as its font priority, give it a blue background, and white font color */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -143,6 +168,7 @@ p {
     color: #ffffff;
 }
 
+/* Define the size and positioning of this class as well as its font priority, give it a blue background, and white font color */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -152,6 +178,7 @@ p {
     color: #ffffff;
 }
 
+/* Define the size and positioning of this class as well as its font priority, give it a blue background, and white font color */
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -161,33 +188,40 @@ p {
     color: #ffffff;
 }
 
+/* Designate a maximum img height */
 .search-engine-optimization img {
     max-height: 200px;
 }
 
+/* Designate a maximum img height */
 .online-reputation-management img {
     max-height: 200px;
 }
 
+/* Designate a maximum img height */
 .social-media-marketing img {
     max-height: 200px;
 }
 
+/* Give a bottom side margin of 20px and a font size of 36px */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Give a bottom side margin of 20px and a font size of 36px */
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Give a bottom side margin of 20px and a font size of 36px */
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Define positioning, font priority, and alignment */
 .footer {
     padding: 30px;
     clear: both;
@@ -195,6 +229,7 @@ p {
     text-align: center;
 }
 
+/* Give this class a font size of 20px */
 .footer h2 {
     font-size: 20px;
 }
